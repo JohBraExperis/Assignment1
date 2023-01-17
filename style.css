@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 5vw;
+  margin: 0;
+  align-self: center;
+}
+
+h2 {
+  font-size: 3vw;
+}
+
+h3 {
+  margin: 0;
+  font-size: 2.5vw;
+}
+p {
+  font-size: 2vw;
+}
+
+.header {
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  padding-left: 80px;
+  font-size: large;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  justify-content: center;
+
+  grid-row-gap: 20px;
+  padding: 5vw;
+}
+
+.joeBanker {
+  width: 20vw;
+  height: 20vw;
+  padding: 20px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px black;
+  display: grid;
+  grid-template-rows: auto auto 5vw;
+}
+
+.balance {
+  display: flex;
+  justify-content: space-between;
+}
+
+#loan-button {
+  background-color: rgb(107, 244, 107);
+  border: 2px solid rgb(89, 149, 0);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  font-size: 2.5vw;
+}
+
+#loan-button:hover {
+  background-color: aliceblue;
+}
+
+.work {
+  width: 20vw;
+  height: 20vw;
+  padding: 20px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px black;
+  display: grid;
+  grid-template-rows: auto auto 5vw;
+}
+.pay {
+  display: flex;
+  justify-content: space-between;
+}
+
+.workBtnContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+#bank-button {
+  background-color: yellow;
+  border: 2px solid rgb(172, 172, 0);
+  border-radius: 5px;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5vw;
+}
+
+#bank-button:hover {
+  background-color: aliceblue;
+}
+
+#work-button {
+  background-color: blue;
+  border: 2px solid rgb(0, 0, 160);
+  color: white;
+  border-radius: 5px;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5vw;
+}
+
+#work-button:hover {
+  background-color: aliceblue;
+  color: black;
+}
+
+#repay-loan-button {
+  background-color: rgb(228, 31, 93);
+  border: 2px solid rgb(255, 14, 14);
+  color: white;
+  margin-top: 10px;
+  border-radius: 5px;
+  width: auto;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.laptops {
+  width: 20vw;
+  height: 20vw;
+  padding: 20px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px black;
+  display: grid;
+}
+
+#select-laptop {
+  width: 100%;
+  height: 3vw;
+  font-size: 2vw;
+}
+
+.features-header {
+  font-size: 2vw;
+}
+
+.features {
+  font-size: 1.5vw;
+}
+
+.showLaptop {
+  height: 20vw;
+  padding: 20px;
+  width: max-content;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px black;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  grid-column-gap: 5vw;
+}
+
+#laptop-img {
+  width: 20vw;
+  height: 20vw;
+  grid-row: 1/3;
+}
+#laptop-price {
+  justify-self: center;
+  align-self: center;
+}
+
+#buy-laptop-button {
+  background-color: rgb(160, 209, 255);
+  border: 2px solid rgb(10, 127, 160);
+  height: 3vw;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1vw;
+  font-size: 2.5vw;
+}
+
+#buy-laptop-button:hover {
+  background-color: aliceblue;
+}
